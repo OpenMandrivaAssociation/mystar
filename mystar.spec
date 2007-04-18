@@ -46,7 +46,3 @@ rm -rf %{buildroot}
 %doc Readme.txt
 %{_sbindir}/%{name}
 %config(noreplace) %{_sysconfdir}/%{name}.conf
-
-%changelog
-* Thu Apr 19 2007 Funda Wang <fundawang@gmail.com> 2.56-1mdv2008.0
-- First package for Mandriva
