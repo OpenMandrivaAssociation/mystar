@@ -9,6 +9,7 @@ Release:	%{release}
 License:	GPL
 Group:		System/Servers
 URL:		http://gf.cs.hit.edu.cn/projects/mystar/
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Source:		http://gf.cs.hit.edu.cn/frs/download.php/253/%{name}_for_starV%{version}.tar.gz
 # fwang: We don't need static linking libraries
 Patch0:		%{name}-2.56-Makefile.patch
