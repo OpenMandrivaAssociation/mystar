@@ -1,6 +1,6 @@
 
 %define version 2.56
-%define release %mkrel 4
+%define release %mkrel 5
 
 Summary:	A 802.1x auth client for Ruijie
 Name:		mystar
@@ -15,7 +15,7 @@ Source:		http://gf.cs.hit.edu.cn/frs/download.php/253/%{name}_for_starV%{version
 Patch0:		%{name}-2.56-Makefile.patch
 # fwang: conf file should be put into /etc
 Patch1:		%{name}-2.56-conf-path.patch
-BuildRequires:	net2-devel
+BuildRequires:	net-devel >= 1.1.3
 BuildRequires:	libpcap-devel
 
 %description
