@@ -1,6 +1,6 @@
 
 %define version 2.56
-%define release %mkrel 5
+%define release %mkrel 6
 
 Summary:	A 802.1x auth client for Ruijie
 Name:		mystar
