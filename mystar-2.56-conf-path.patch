@@ -1,0 +1,11 @@
+--- mystar.c~	2006-12-10 14:57:30.000000000 +0100
++++ mystar.c	2007-04-03 07:30:25.000000000 +0200
+@@ -305,7 +305,7 @@
+ 
+     //the check and anylysis against mystar.conf  *don't*  work perfectly.
+     //this may be improved in the later version.
+-    if( (fp=fopen("mystar.conf","r"))==NULL ) err_quit("cannot open file mystar.conf ! check it.\n");
++    if( (fp=fopen("/etc/mystar.conf","r"))==NULL ) err_quit("cannot open file mystar.conf ! check it.\n");
+     while(fgets(buf,sizeof(buf),fp)!=NULL)
+     {
+         if( (buf[0]=='#') || (buf[0]=='\n') ) continue;
