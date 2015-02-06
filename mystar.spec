@@ -1,7 +1,7 @@
 Summary:	A 802.1x auth client for Ruijie
 Name:		mystar
 Version:	2.56
-Release:	7
+Release:	8
 License:	GPLv2+
 Group:		System/Servers
 Url:		http://gf.cs.hit.edu.cn/projects/mystar/
