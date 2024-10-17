@@ -4,7 +4,7 @@ Version:	2.56
 Release:	8
 License:	GPLv2+
 Group:		System/Servers
-Url:		http://gf.cs.hit.edu.cn/projects/mystar/
+Url:		https://gf.cs.hit.edu.cn/projects/mystar/
 Source0:	http://gf.cs.hit.edu.cn/frs/download.php/253/%{name}_for_starV%{version}.tar.gz
 # fwang: We don't need static linking libraries
 Patch0:		%{name}-2.56-Makefile.patch
