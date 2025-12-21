@@ -10,6 +10,7 @@ Source0:	http://gf.cs.hit.edu.cn/frs/download.php/253/%{name}_for_starV%{version
 Patch0:		%{name}-2.56-Makefile.patch
 # fwang: conf file should be put into /etc
 Patch1:		%{name}-2.56-conf-path.patch
+BuildRequires:	make
 BuildRequires:	libnet-devel
 BuildRequires:	libpcap-devel
 
